@@ -1,0 +1,10 @@
+
+public interface PokemonInterface {
+	default Pokemon createPokemon(String name, int health, String type) {
+		Pokemon newPoke = new Pokemon(name, health, type);
+		return newPoke;
+	}
+	default void attackPokemon(Pokemon pokemon) {
+		pokemon.health -=10;
+	}
+}

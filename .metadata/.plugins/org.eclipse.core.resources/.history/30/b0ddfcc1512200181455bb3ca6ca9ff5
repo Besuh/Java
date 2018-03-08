@@ -1,0 +1,13 @@
+
+public interface PokemonInterface {
+	default Pokemon createPokemon(String name, int health, String type) {
+		Pokemon newPoke = new Pokemon(name, health, type);
+		return newPoke;
+	}
+	default void attackPokemon(Pokemon pokemon) {
+		pokemon.setHealth(pokemon.getHealth()-10);
+	}
+	default String pokemonInfo(Pokemon pokemon) {
+		return String.format("%s, %i hp, %s type", pokemon.getName(), pokemon.getHealth(), pokemon.getType())
+	}
+}

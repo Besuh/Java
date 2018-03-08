@@ -1,0 +1,15 @@
+
+public class ClassTest {
+
+	public static void main(String[] args) {
+		Wizard tim = new Wizard();
+		Samurai sal = new Samurai();
+		Ninja key = new Ninja();
+		tim.fireball(sal);
+		sal.deathBlow(key);
+		key.steal(tim);
+		sal.howMany();
+
+	}
+
+}

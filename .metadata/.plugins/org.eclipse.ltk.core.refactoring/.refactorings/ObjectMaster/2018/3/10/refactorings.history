@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Encapsulate field &apos;Human.total&apos; in &apos;Human&apos;&#x0D;&#x0A;- Original project: &apos;ObjectMaster&apos;&#x0D;&#x0A;- Original element: &apos;Human.total&apos;&#x0D;&#x0A;- Getter method name: &apos;getTotal&apos;&#x0D;&#x0A;- Setter method name: &apos;setTotal&apos;&#x0D;&#x0A;- Field visibility: &apos;public&apos;&#x0D;&#x0A;- Use getter and setter methods in declaring type" comments="false" declaring="true" description="Encapsulate field &apos;total&apos;" flags="589830" getter="getTotal" id="org.eclipse.jdt.ui.self.encapsulate" input="/src&lt;{Human.java[Human^total" insertion="0" setter="setTotal" stamp="1520380557131" version="1.0" visibility="1"/>
+</session>

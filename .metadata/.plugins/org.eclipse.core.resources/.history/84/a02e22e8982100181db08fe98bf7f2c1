@@ -1,0 +1,18 @@
+
+public class Samurai extends Human{
+	public int total = 0;
+	public Samurai() {
+		this.health = 200;
+		total += 1;
+	}
+	public void deathBlow(Human name) {
+		name.health = 0;
+		this.health /=2;
+	}
+	public void meditate() {
+		this.health += this.health/2;
+	}
+	public int howMany() {
+		return total;
+	}
+}

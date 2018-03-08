@@ -1,0 +1,19 @@
+public class Dragon extends Mammal {
+	public static void main(String[] args) {
+		
+	}
+	public void setEnergy() {
+		energyLevel=300;
+	}
+	public void fly() {
+		System.out.println("Woosh");
+		energyLevel-=50;
+	}
+	public void eatHumans() {
+		energyLevel+=25;
+	}
+	public void attackTown() {
+		System.out.println("arrrcgghh");
+		energyLevel-=100;
+	}
+}

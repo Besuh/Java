@@ -1,0 +1,7 @@
+
+public abstract class AbstractPokemon implements PokemonInterface {
+	public Pokemon createPokemon() {
+		Pokemon newPoke = new Pokemon(name, health, type);
+		return newPoke;
+	}
+}

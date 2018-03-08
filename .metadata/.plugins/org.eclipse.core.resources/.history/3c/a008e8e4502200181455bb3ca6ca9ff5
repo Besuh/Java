@@ -1,0 +1,6 @@
+
+public interface PokemonInterface {
+	default static Pokemon createPokemon(String name, int health, String type) {
+		Pokemon newPoke = new Pokemon(name, health, type);
+	}
+}

@@ -1,0 +1,3 @@
+public class Dragon extends Mammal {
+	protected int energyLevel=300;
+}
